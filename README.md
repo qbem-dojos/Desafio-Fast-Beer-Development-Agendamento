@@ -25,15 +25,15 @@ Trata-se de desenvolver o front e o backend de uma micro-ecossistema de agendame
 ---
 Paciente:
   Nome: Edgar Nishi-myojo
-  Email: edmyojo@tatsunoko.com
+  Email: edmyojo@takoyaki.com
   Whatsapp: 11999559999
 
 ---
 Médico:
-Nome: Bruno Cardeninho
-Especialidade: Proctologista
-Atendimento: horário comercial
-Slot de tempo: 1h
+  Nome: Bruno Cardeninho
+  Especialidade: Proctologista
+  Atendimento: horário comercial
+  Slot: 1h
 
 ```
 
