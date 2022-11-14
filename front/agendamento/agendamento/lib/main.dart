@@ -1,3 +1,5 @@
+import 'package:agendamento/screen/paciente.dart';
+// import 'package:agendamento/screen/profissional.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
@@ -76,34 +78,10 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: SfCalendar(
-          view: CalendarView.workWeek,
-          dataSource: _getCalendarDataSource(),
-          ),
+      body: PacienteScreen(),
     );
   }
 }
 
-class DataSource extends CalendarDataSource {
- DataSource(List<Appointment> source) {
-   appointments = source;
- }
-}
 
-DataSource _getCalendarDataSource() {
-   List<Appointment> appointments = <Appointment>[];
-   appointments.add(
-       Appointment(
-         startTime: DateTime.now(),
-         endTime: DateTime.now().add(
-             const Duration(hours: 2)),
-         isAllDay: false,
-         subject: 'Meeting',
-         color: Colors.blue,
-         startTimeZone: 'America/Sao_Paulo',
-         endTimeZone: 'America/Sao_Paulo'
-       ));
-
-  return DataSource(appointments);
-}
 
