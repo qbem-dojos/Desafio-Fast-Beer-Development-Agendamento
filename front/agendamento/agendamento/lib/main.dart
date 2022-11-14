@@ -1,7 +1,6 @@
 import 'package:agendamento/screen/paciente.dart';
 // import 'package:agendamento/screen/profissional.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_calendar/calendar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -78,10 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: PacienteScreen(),
+      body: const PacienteScreen(),
     );
   }
 }
+
 
 
 
