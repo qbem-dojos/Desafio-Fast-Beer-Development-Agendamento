@@ -1,1 +1,2 @@
-FROM alpine AS 
+FROM alpine AS build
+RUN apk install 
