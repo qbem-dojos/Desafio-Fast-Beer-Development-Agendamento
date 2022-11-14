@@ -5,15 +5,15 @@ extremamente curto, com tecnologias nuncas utilizadas pelos desenvolvedores e co
 
 ## Organização do Dia
 
-- *09h00min ás 09h15min*: Alinhamento de como será o hackton
-- *09h15min ás 10h00min*: Planejamento do projeto agendamento
-- *10h00min ás 11h00min*: Desenvolvimento do Mock da Api e esboço das telas de agendamento e agenda do médico e deploy
-- *11h00min ás 12h00min*: Realização dos CRUD dos dados da API ao banco de dados e integração com a API
-- *12h00min ás 13h30min*: Almoço
-- *13h30min ás 14h00min*: Alinhamento do que foi realizado e próximos passos
-- *14h00min ás 15h00min*: Aplicação das regras de negócio na API & Melhoria na experiencia do usuário da aplicação
-- *15h00min ás 17h00min*: Refatoração e aplicação de testes unitários faltantes no projeto, melhoria da pipeline
-- *17h00min ás 17h30min*: Review com o stakeholders e retro ;)
+- [x] *09h00min ás 09h15min*: Alinhamento de como será o hackton
+- [ ] *09h15min ás 10h00min*: Planejamento do projeto agendamento
+- [ ] *10h00min ás 11h00min*: Desenvolvimento do Mock da Api e esboço das telas de agendamento e agenda do médico e deploy
+- [ ] *11h00min ás 12h00min*: Realização dos CRUD dos dados da API ao banco de dados e integração com a API
+- [ ] *12h00min ás 13h30min*: Almoço
+- [ ] *13h30min ás 14h00min*: Alinhamento do que foi realizado e próximos passos
+- [ ] *14h00min ás 15h00min*: Aplicação das regras de negócio na API & Melhoria na experiencia do usuário da aplicação
+- [ ] *15h00min ás 17h00min*: Refatoração e aplicação de testes unitários faltantes no projeto, melhoria da pipeline
+- [ ] *17h00min ás 17h30min*: Review com o stakeholders e retro ;)
 
 ## O Projeto
 
@@ -32,8 +32,8 @@ Paciente:
 Médico:
   Nome: Bruno Cardeninho
   Especialidade: Proctologista
-  Atendimento: horário comercial
-  Slot: 1h
+  Atendimento: seg-sex das 09h00min ás 16h00min
+  Periodo da reserva: 1h
 
 ```
 
@@ -94,3 +94,11 @@ Funcionalidade: Listagem de agendas para o médico
 
 ```
 
+## Stack
+
+### Backend
+- GO
+- Pebble DB
+
+Front
+ - Flutter 
